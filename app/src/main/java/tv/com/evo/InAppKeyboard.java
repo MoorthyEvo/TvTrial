@@ -725,6 +725,8 @@ public class InAppKeyboard extends LinearLayout implements View.OnClickListener,
         this.inputConnection = ic;
     }
 
+
+    //Logic to navigate keys
     @Override
     public void onFocusChange(View view, boolean b) {
         if (view.getId() == R.id.button_z) {
