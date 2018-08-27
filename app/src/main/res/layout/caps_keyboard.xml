@@ -1,0 +1,354 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:id="@+id/caps_layout"
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button_Q"
+                style="@style/keyboard_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:nextFocusLeft="@id/button_P"
+
+                android:text="Q"
+                android:textAllCaps="true" />
+
+            <Button
+                android:id="@+id/button_W"
+                style="@style/keyboard_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:text="W"
+                android:textAllCaps="true" />
+
+            <Button
+                android:id="@+id/button_E"
+                style="@style/keyboard_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:text="E"
+                android:textAllCaps="true" />
+
+            <Button
+                android:id="@+id/button_R"
+                style="@style/keyboard_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:text="R"
+                android:textAllCaps="true" />
+
+            <Button
+                android:id="@+id/button_T"
+                style="@style/keyboard_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:text="T"
+                android:textAllCaps="true" />
+
+
+            <Button
+                android:id="@+id/button_Y"
+                style="@style/keyboard_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:text="Y"
+                android:textAllCaps="true" />
+
+            <Button
+                android:id="@+id/button_U"
+                style="@style/keyboard_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:text="U"
+                android:textAllCaps="true" />
+
+            <Button
+                android:id="@+id/button_I"
+                style="@style/keyboard_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:text="I"
+                android:textAllCaps="true" />
+
+            <Button
+                android:id="@+id/button_O"
+                style="@style/keyboard_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:text="O"
+                android:textAllCaps="true" />
+
+            <Button
+                android:id="@+id/button_P"
+                style="@style/keyboard_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:nextFocusRight="@id/button_Q"
+                android:text="P"
+                android:textAllCaps="true" />
+            <!--<Button-->
+            <!--android:id="@+id/button_underscore_open_caps"-->
+            <!--style="@style/keyboard_button"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="1"-->
+            <!--android:text="_" />-->
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button_A"
+                style="@style/keyboard_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:nextFocusLeft="@id/button_underscore_open_caps"
+                android:text="A"
+                android:textAllCaps="true" />
+
+            <Button
+                android:id="@+id/button_S"
+                style="@style/keyboard_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:text="S"
+                android:textAllCaps="true" />
+
+            <Button
+                android:id="@+id/button_D"
+                style="@style/keyboard_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:text="D"
+                android:textAllCaps="true" />
+
+            <Button
+                android:id="@+id/button_F"
+                style="@style/keyboard_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:text="F"
+                android:textAllCaps="true" />
+
+            <Button
+                android:id="@+id/button_G"
+                style="@style/keyboard_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:text="G"
+                android:textAllCaps="true" />
+
+
+            <Button
+                android:id="@+id/button_H"
+                style="@style/keyboard_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:text="H"
+                android:textAllCaps="true" />
+
+            <Button
+                android:id="@+id/button_J"
+                style="@style/keyboard_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:text="J"
+                android:textAllCaps="true" />
+
+            <Button
+                android:id="@+id/button_K"
+                style="@style/keyboard_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:text="K"
+                android:textAllCaps="true" />
+
+            <Button
+                android:id="@+id/button_L"
+                style="@style/keyboard_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:text="L"
+                android:textAllCaps="true" />
+            <!--<Button-->
+            <!--android:id="@+id/button_hyphen_open_caps"-->
+            <!--style="@style/keyboard_button"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="1"-->
+            <!--android:text="-" />-->
+            <Button
+                android:id="@+id/button_underscore_open_caps"
+                style="@style/keyboard_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:nextFocusRight="@id/button_A"
+                android:text="_" />
+
+            <!--<Button-->
+            <!--android:id="@+id/button_underscore_open_caps"-->
+            <!--style="@style/keyboard_button"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="1"-->
+
+            <!--android:text="_" />-->
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button_Z"
+                style="@style/keyboard_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:nextFocusLeft="@id/button_hyphen_open_caps"
+                android:text="Z"
+                android:textAllCaps="true" />
+
+
+            <Button
+                android:id="@+id/button_X"
+                style="@style/keyboard_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:text="X"
+                android:textAllCaps="true" />
+
+            <Button
+                android:id="@+id/button_C"
+                style="@style/keyboard_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:text="C"
+                android:textAllCaps="true" />
+
+            <Button
+                android:id="@+id/button_V"
+                style="@style/keyboard_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:text="V"
+                android:textAllCaps="true" />
+
+
+            <Button
+                android:id="@+id/button_B"
+                style="@style/keyboard_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:text="B"
+                android:textAllCaps="true" />
+
+            <Button
+                android:id="@+id/button_N"
+                style="@style/keyboard_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="N"
+                android:textAllCaps="true" />
+
+            <Button
+                android:id="@+id/button_M"
+                style="@style/keyboard_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="M"
+                android:textAllCaps="true" />
+
+
+            <Button
+                android:id="@+id/button_comma_open_caps"
+                style="@style/keyboard_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="," />
+
+            <Button
+                android:id="@+id/button_and_open_caps"
+                style="@style/keyboard_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="&amp;" />
+
+            <Button
+                android:id="@+id/button_hyphen_open_caps"
+                style="@style/keyboard_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:nextFocusRight="@id/button_Z"
+                android:text="-" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</merge>

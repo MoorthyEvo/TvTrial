@@ -1,0 +1,201 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include
+            layout="@layout/numeric_keyboard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <include
+            layout="@layout/small_keyboard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <include
+            layout="@layout/symbols_keyboard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <include
+            layout="@layout/caps_keyboard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button_yahoo_open"
+                style="@style/keyboard_button"
+                android:layout_width="0dp"
+                android:nextFocusLeft="@id/button_evolution_open"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="\u0040yahoo.com"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/button_gmail_open"
+                style="@style/keyboard_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="\u0040gmail.com"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/button_evolution_open"
+                style="@style/keyboard_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="\u0040evolutiondigital.com"
+                android:textAllCaps="false" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button_SYM"
+                style="@style/keyboard_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:nextFocusLeft="@id/button_delete"
+                android:text="Sym"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/button_ABC"
+                style="@style/keyboard_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="ABC"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/button_at_open"
+                style="@style/keyboard_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:text="\u0040" />
+
+            <Button
+                android:id="@+id/button_dot_open"
+                style="@style/keyboard_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="." />
+
+            <!--<Button-->
+            <!--android:id="@+id/button_underscore_open"-->
+            <!--style="@style/keyboard_button"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="1"-->
+            <!--android:text="_" />-->
+
+            <!--<Button-->
+            <!--android:id="@+id/button_question_open"-->
+            <!--style="@style/keyboard_button"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="1"-->
+            <!--android:text="\?" />-->
+
+            <!--<Button-->
+            <!--android:id="@+id/button_hyphen_open"-->
+            <!--style="@style/keyboard_button"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="1"-->
+            <!--android:text="-" />-->
+
+            <!--<Button-->
+            <!--android:id="@+id/button_exclamation_open"-->
+            <!--style="@style/keyboard_button"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="1"-->
+            <!--android:text="!" />-->
+
+            <Button
+                android:id="@+id/button_com"
+                style="@style/keyboard_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text=".com"
+                android:textAllCaps="false" />
+
+
+            <ImageView
+                android:id="@+id/button_left"
+                style="@style/keyboard_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/left_hard" />
+
+            <ImageView
+                android:id="@+id/button_right"
+                style="@style/keyboard_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/right_hard" />
+
+            <Button
+                android:id="@+id/button_delete"
+                style="@style/keyboard_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:text="Del"
+                android:textAllCaps="true" />
+
+        </LinearLayout>
+
+        <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="30dp"-->
+        <!--android:orientation="horizontal">-->
+
+
+        <!--</LinearLayout>-->
+
+        <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_margin="10dp"-->
+        <!--android:orientation="horizontal">-->
+
+        <!--&lt;!&ndash;<Button&ndash;&gt;-->
+        <!--&lt;!&ndash;android:id="@+id/button_prev"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_width="0dp"-->
+        <!--style="@style/keyboard_button"-->
+        <!--&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_weight="2"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:textAllCaps="false"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:text="Prev"/>&ndash;&gt;-->
+
+        <!---->
+        <!--</LinearLayout>-->
+    </LinearLayout>
+
+</merge>

@@ -1,0 +1,256 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:id="@+id/symbols_layout"
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button_tilt"
+                style="@style/keyboard_button"
+                android:layout_width="0dp"
+                android:nextFocusLeft="@id/button_close_bracket"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="~" />
+
+            <Button
+                android:id="@+id/button_exclamation"
+                style="@style/keyboard_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="!" />
+
+            <Button
+                android:id="@+id/button_at"
+                style="@style/keyboard_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="\u0040" />
+
+            <Button
+                android:id="@+id/button_hash"
+                style="@style/keyboard_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="#" />
+
+            <Button
+                android:id="@+id/button_doller"
+                style="@style/keyboard_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="$" />
+
+
+            <!--<Button-->
+                <!--android:id="@+id/button_percentage"-->
+                <!--style="@style/keyboard_button"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_weight="1"-->
+                <!--android:text="%" />-->
+
+            <Button
+                android:id="@+id/button_cap"
+                style="@style/keyboard_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="^" />
+
+            <Button
+                android:id="@+id/button_and"
+                style="@style/keyboard_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="&amp;" />
+
+            <Button
+                android:id="@+id/button_star"
+                style="@style/keyboard_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="*" />
+
+            <Button
+                android:id="@+id/button_open_bracket"
+                style="@style/keyboard_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="(" />
+
+            <Button
+                android:id="@+id/button_close_bracket"
+                style="@style/keyboard_button"
+                android:layout_width="0dp"
+                android:nextFocusRight="@id/button_tilt"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text=")" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button_underscore"
+                style="@style/keyboard_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:nextFocusLeft="@id/button_comma"
+                android:layout_weight="1"
+                android:text="_" />
+
+            <Button
+                android:id="@+id/button_hyphen"
+                style="@style/keyboard_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="-" />
+
+            <Button
+                android:id="@+id/button_plus"
+                style="@style/keyboard_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="+" />
+
+
+
+
+            <Button
+                android:id="@+id/button_semicolon"
+                style="@style/keyboard_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text=";" />
+
+            <Button
+                android:id="@+id/button_colon"
+                style="@style/keyboard_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text=":" />
+
+
+            <Button
+                android:id="@+id/button_greater_than"
+                style="@style/keyboard_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="&gt;" />
+
+            <Button
+                android:id="@+id/button_lesser_than"
+                style="@style/keyboard_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="&lt;" />
+
+            <!--<Button-->
+                <!--android:id="@+id/button_back_slash"-->
+                <!--style="@style/keyboard_button"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_weight="1"-->
+                <!--android:text="\\" />-->
+
+            <Button
+                android:id="@+id/button_front_slash"
+                style="@style/keyboard_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="/" />
+
+            <Button
+                android:id="@+id/button_dot"
+                style="@style/keyboard_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="." />
+
+            <Button
+                android:id="@+id/button_comma"
+                style="@style/keyboard_button"
+                android:layout_width="0dp"
+                android:nextFocusRight="@id/button_underscore"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="," />
+            <!--<Button-->
+            <!--android:id="@+id/button_equal"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="1"-->
+            <!--style="@style/keyboard_button"-->
+            <!--android:text="=" />-->
+
+
+        </LinearLayout>
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="30dp"-->
+            <!--android:orientation="horizontal">-->
+
+
+            <!--&lt;!&ndash;<Button&ndash;&gt;-->
+            <!--&lt;!&ndash;android:id="@+id/button_single_quote"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_width="0dp"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_weight="1"&ndash;&gt;-->
+            <!--&lt;!&ndash;style="@style/keyboard_button"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:text="'" />&ndash;&gt;-->
+            <!--&lt;!&ndash;<Button&ndash;&gt;-->
+            <!--&lt;!&ndash;android:id="@+id/button_double_quote"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_width="0dp"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_weight="1"&ndash;&gt;-->
+            <!--&lt;!&ndash;style="@style/keyboard_button"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:text="&quot;&quot;" />&ndash;&gt;-->
+            <!--&lt;!&ndash;<Button&ndash;&gt;-->
+            <!--&lt;!&ndash;android:id="@+id/button_open_brace"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_width="0dp"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_weight="1"&ndash;&gt;-->
+            <!--&lt;!&ndash;style="@style/keyboard_button"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:text="{" />&ndash;&gt;-->
+            <!--&lt;!&ndash;<Button&ndash;&gt;-->
+            <!--&lt;!&ndash;android:id="@+id/button_close_brace"&ndash;&gt;-->
+            <!--&lt;!&ndash;style="@style/keyboard_button"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_width="0dp"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_weight="1"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:text="}" />&ndash;&gt;-->
+
+        <!--</LinearLayout>-->
+
+    </LinearLayout>
+
+</merge>
