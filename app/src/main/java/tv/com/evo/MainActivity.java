@@ -71,6 +71,7 @@ public class MainActivity extends AppCompatActivity implements WebServiceListene
 
     }
 
+    //get device details
     private void getDeviceDetails() {
         WifiManager wm = (WifiManager) getApplicationContext().getSystemService(WIFI_SERVICE);
         int ip = wm.getConnectionInfo().getIpAddress();
@@ -224,7 +225,7 @@ public class MainActivity extends AppCompatActivity implements WebServiceListene
         passEditText.setOnFocusChangeListener(new View.OnFocusChangeListener() {
             @Override
             public void onFocusChange(View v, boolean hasFocus) {
-                if (!emailEditText.hasFocus()&&!hasFocus) {
+                if (!emailEditText.hasFocus() && !hasFocus) {
                     setPasswordFocusable(true);
                 }
             }
@@ -458,11 +459,12 @@ public class MainActivity extends AppCompatActivity implements WebServiceListene
             } catch (JSONException e) {
                 e.printStackTrace();
             }
-            callApi(postDataParams, BaseUrl.baseUrl+"/idemand4u/evomaximizeV2.0/services");
+            callApi(postDataParams, BaseUrl.baseUrl + "/idemand4u/evomaximizeV2.0/services");
         }
 
 
     }
+
     public View getCurrentFocus() {
         View focusedView = (View) parentLayout.getFocusedChild();
         return focusedView;
