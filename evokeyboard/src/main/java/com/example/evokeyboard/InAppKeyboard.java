@@ -1,4 +1,4 @@
-package tv.com.evo;
+package com.example.evokeyboard;
 
 import android.content.Context;
 import android.text.TextUtils;

@@ -24,12 +24,13 @@ android {
 
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation project(':evokeyboard')
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
     implementation 'com.android.support:leanback-v17:27.1.1'
     implementation 'com.android.support:appcompat-v7:27.1.1'
 //    api 'androidx.appcompat:appcompat:1.0.0-alpha1'
     implementation 'com.android.support:design:27.1.1'
     implementation 'com.github.bumptech.glide:glide:3.8.0'
-
+    implementation 'com.novoda:bintray-release:0.3.4'
 //    implementation 'com.google.android.material:material:1.0.0-alpha1'
 }
